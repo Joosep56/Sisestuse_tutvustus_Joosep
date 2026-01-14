@@ -4,7 +4,7 @@ class Numbrid:
 
     def get_results(self):
         results = []
-        results.append(f"Sisestatud väärtus: {self.text}")
+        results.append(f"Sisestasid: {self.text}")
 
         if self.is_number():
             number = float(self.text)

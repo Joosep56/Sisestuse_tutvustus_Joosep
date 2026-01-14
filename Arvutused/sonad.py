@@ -4,7 +4,7 @@ class Sonad:
 
     def get_results(self):
         results = []
-        results.append(f"Sisestatud väärtus: {self.text}")
+        results.append(f"Sisestasid: {self.text}")
 
         # Tühi või mitte
         if self.text == "":

@@ -8,7 +8,7 @@ class Arvutamine:
 
         # Sisendi näitamine
         results= []
-        results.append(f"Sisestatud väärtus: {self.text}")
+        results.append(f"Sisestasid: {self.text}")
 
         # Tühi või mitte
         if self.text == "":
